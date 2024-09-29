@@ -16,8 +16,8 @@ export default defineConfig({
         lib: {
             entry: resolve(__dirname, 'src/main.js'),
             formats: ['es'],
-            name: 'SeenGenJS',
-            fileName: () => 'sgen-js.js',
+            name: 'SeenGenHtmlCssJS',
+            fileName: () => 'sgen-html-css-js.js',
         },          
         rollupOptions: {},
       },    
