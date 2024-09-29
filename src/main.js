@@ -7,8 +7,6 @@ class HtmlCssJSGen {
         const en_html = new HtmlWriter(new JSGen())
         const ar_html = new ArHtmlWriter(new JSGen()) 
 
-        en_html.test()
-
         const html_gen = { 
             en: en_html, 
             ar: ar_html
