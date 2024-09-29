@@ -3,9 +3,13 @@ import {JSGen} from '../lib/sgen-js.js'
 
 class HtmlCssJSGen {
     run(ast, symtab, main_args, opts) {
+        
+        const en_html = new HtmlWriter(new JSGen())
+        const ar_html = new ArHtmlWriter(new JSGen()) 
+
         const html_gen = { 
-            en: new HtmlWriter(new JSGen()), 
-            ar: new ArHtmlWriter(new JSGen()) 
+            en: en_html, 
+            ar: ar_html
         }
 
         const js_gen = new JSGen()
