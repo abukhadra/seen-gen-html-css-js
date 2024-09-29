@@ -1,6 +1,6 @@
 {
     "name": "seen-gen-html-css-js",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "type": "module",
     "description": "seen HMTL/CSS/JS generator",
     "files": [
