@@ -2,7 +2,7 @@ import {ArHtmlWriter, HtmlWriter} from '../lib/sgen-html.js'
 import {JSGen} from '../lib/sgen-js.js'
 
 class HtmlCssJSGen {
-    run(ast, symtab, main_args, opts) {
+    run(ast, symtab, main_args, opts) { 
         
         const en_html = new HtmlWriter(new JSGen())
         const ar_html = new ArHtmlWriter(new JSGen()) 
